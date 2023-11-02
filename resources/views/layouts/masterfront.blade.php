@@ -47,7 +47,7 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>LiftUp</h1>
-        <span>.</span>
+        <span></span>
       </a>
 
       <!-- Nav Menu -->
