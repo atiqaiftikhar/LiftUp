@@ -1,7 +1,7 @@
 
 <!DOCTYPE html><html lang="en"><head>
 
-    <title>Motor Expert - Auto Repair &amp; Service HTML Template | Home Page One</title>
+    <title>LiftUp</title>
 
     <!-- Stylesheets -->
     <link href="{{asset('assetsfront/css/bootstrap.css')}}" rel="stylesheet">
@@ -35,134 +35,44 @@
         <div class="preloader"></div>
 
         <!-- Main Header-->
-        <header class="main-header">
+    <header class="main-header header-style-three">
 
-            <!--Header Top-->
-            <div class="header-top">
-                <div class="auto-container">
-                    <div class="inner-container clearfix">
-                        <div class="top-left">
-                            <ul class="clearfix">
-                                <li>Welcome to Our Auto Work Repair Service</li>
-                            </ul>
-                        </div>
-                        <div class="top-right clearfix">
-                            <ul class="social-icon-one clearfix">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                <li><a href="#"><span class="fab fa-pinterest"></span></a></li>
-                                <li><a href="#"><span class="fab fa-dribbble"></span></a></li>
-                            </ul>
-                            <div class="call-btn">
-                                <a href="appointment.html">Book Now</a>
-                            </div>
-                        </div>
+        <!--Header Top-->
+    	<div class="header-top">
+        	<div class="auto-container">
+            	<div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="clearfix">
+                            <li>Autocare is your one stap solution for all auto repair needs!</li>
+                            <li><a href="appointment.html">Get a Free Auto Checkup Now <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right clearfix">
+                        <p><i class="fa fa-phone-volume"></i> 24/7 Support  0700 125 3657</p>
                     </div>
                 </div>
             </div>
-            <!-- End Header Top -->
+        </div>
+        <!-- End Header Top -->
 
-            <!--Header-Upper-->
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="clearfix">
-                        <div class="pull-left logo-outer">
-                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
-                        </div>
-                        <div class="pull-right upper-right clearfix">
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-home"></span></div>
-                                <ul>
-                                    <li><strong>13AH, San Francisco,</strong></li>
-                                    <li>New york, United States</li>
-                                </ul>
-
-                            </div>
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-mail-1"></span></div>
-                                <ul>
-                                    <li><strong>Send your mail at</strong></li>
-                                    <li><a href="#">Construct@support.com</a></li>
-                                </ul>
-                            </div>
-
-                            <!--Info Box-->
-                            <div class="upper-column info-box">
-                                <div class="icon-box"><span class="flaticon-clock"></span></div>
-                                <ul>
-                                    <li><strong>Working Hours</strong></li>
-                                    <li>Mon-Sat:9.30am to 7.00pm</li>
-                                </ul>
-                            </div>
-                        </div>
+        <!-- Header Lower -->
+        <div class="header-lower">
+            <div class="auto-container">
+               <div class="main-box clearfix">
+                    <!--Logo Box-->
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="{{asset('assetsfront/images/logo-2.png')}}" alt=""></a></div>
                     </div>
-                </div>
-            </div>
-            <!--End Header Upper-->
-
-            <!--Header Lower-->
-            <div class="header-lower">
-
-                <div class="auto-container">
-                    <div class="nav-outer clearfix">
-                        <!-- Main Menu -->
-                        <nav class="main-menu navbar-expand-md">
-                            <div class="navbar-header">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
+					<!--outer Box-->
+                        <div class="outer-box">
+                            <!-- Cart Btn -->
+                            <div class="cart-btn">
+                                <a href="shop.html" title="">
+                                    <i class="flaticon-shopping-bag-1"></i>
+                                    <span class="count">2</span>
+                                </a>
                             </div>
 
-                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="/home">Home</a>
-
-
-
-                                    <li class="dropdown has-dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                                        <ul class="dd-box-shadow">
-
-                                          <li class="dropdown has-dropdown"><a href="/recovery"><span>Recovery</span> <i class="bi bi-chevron-down"></i></a>
-                                            <ul class="dd-box-shadow">
-                                              <li><a href="#">Normal</a></li>
-                                              <li><a href="#">Flat</a></li>
-                                              <li><a href="#">Box</a></li>
-
-                                            </ul>
-                                          </li>
-                                          <li><a href="/carwash">Car Wash</a></li>
-                                          <li  class="dropdown has-dropdown"><a href="/carpassing"><span>Car Passing</span><i class="bi bi-chevron-down"></i></a>
-                                            <ul class="dd-box-shadow">
-                                                <li><a href="#">Normal</a></li>
-                                                <li><a href="#">Flat</a></li>
-                                                <li><a href="#">Box</a></li>
-
-                                              </ul>
-                                        </li>
-
-                                          <li><a href="/carservice">Car Services</a></li>
-                                          <li><a href="/tyre">Tyre</a></li>
-                                          <li><a href="/battery">Battery</a></li>
-                                        </ul>
-                                      </li>
-                                    </li>
-                                    <li ><a href="/aboutus">About</a>
-
-                                    </li>
-
-                                    <li><a href="/contactus">Contact</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!-- Main Menu End-->
-
-                        <!--Search Box-->
-                        <div class="search-box-outer">
                             <!--Search Box-->
                             <div class="dropdown dropdown-outer">
                                 <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
@@ -179,132 +89,138 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div><!--End earch Box-->
+                        </div><!--End outer Box-->
+                    <!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
 
-                    </div>
-                </div>
-            </div>
-            <!--End Header Lower-->
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+                                    <li ><a href="/home">Home</a></li>
 
-            <!--Sticky Header-->
-            <div class="sticky-header">
-                <div class="auto-container clearfix">
-                    <!--Logo-->
-                    <div class="logo pull-left">
-                        <a href="index.html" class="img-responsive"><img src="images/logo-small.png" alt="" title=""></a>
-                    </div>
 
-                    <!--Right Col-->
-                    <div class="right-col pull-right">
-                        <!-- Main Menu -->
-                        <nav class="main-menu  navbar-expand-md">
-                            <div class="navbar-header">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
 
-                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#">Home</a>
-
-                                    </li>
-                                    <li class="dropdown"><a href="#">About</a>
-
-                                    </li>
-
-                                    <li class="dropdown has-dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                                        <ul class="dd-box-shadow">
-
-                                          <li class="dropdown has-dropdown"><a href="/recovery"><span>Recovery</span> <i class="bi bi-chevron-down"></i></a>
+                                        <li class="dropdown has-dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                                             <ul class="dd-box-shadow">
-                                              <li><a href="#">Normal</a></li>
-                                              <li><a href="#">Flat</a></li>
-                                              <li><a href="#">Box</a></li>
 
+                                              <li class="dropdown has-dropdown"><a href="/recovery"><span>Recovery</span> <i class="bi bi-chevron-down"></i></a>
+                                                <ul class="dd-box-shadow">
+                                                  <li><a href="/recovery">Normal</a></li>
+                                                  <li><a href="/recovery">Flat</a></li>
+                                                  <li><a href="/recovery">Box</a></li>
+
+                                                </ul>
+                                              </li>
+                                              <li><a href="/carwash">Car Wash</a></li>
+                                              <li  class="dropdown has-dropdown"><a href="/carpassing"><span>Car Passing</span><i class="bi bi-chevron-down"></i></a>
+                                                <ul class="dd-box-shadow">
+                                                    <li><a href="/carpassing">Normal</a></li>
+                                                    <li><a href="/carpassing">Flat</a></li>
+                                                    <li><a href="/carpassing">Box</a></li>
+
+                                                  </ul>
+                                            </li>
+
+                                              <li><a href="/carservice">Car Services</a></li>
+                                              <li><a href="/tyre">Tyre</a></li>
+                                              <li><a href="/battery">Battery</a></li>
                                             </ul>
                                           </li>
-                                          <li><a href="/carwash">Car Wash</a></li>
-                                          <li  class="dropdown has-dropdown"><a href="/carpassing"><span>Car Passing</span><i class="bi bi-chevron-down"></i></a>
-                                            <ul class="dd-box-shadow">
-                                                <li><a href="#">Normal</a></li>
-                                                <li><a href="#">Flat</a></li>
-                                                <li><a href="#">Box</a></li>
+                                        </li>
+                                        <li ><a href="/aboutus">About</a>
 
-                                              </ul>
                                         </li>
 
-                                          <li><a href="/carservice">Car Services</a></li>
-                                          <li><a href="/tyre">Tyre</a></li>
-                                          <li><a href="/battery">Battery</a></li>
-                                        </ul>
-                                      </li>
+                                        <li><a href="/contactus">Contact</a></li>
 
-
-                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
+
                             </div>
-                        </nav><!-- Main Menu End-->
+
+                        </nav>
+                        <!-- Main Menu End-->
+
                     </div>
-
                 </div>
-            </div>
-            <!--End Sticky Header-->
-        </header>
-        <!--End Main Header -->
-
-
-
-
-
-
-
-
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 " data-aos-delay="100">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-              <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Car Recovery & Transport</a></h4>
-                <p class="description">LiftUp offers different types of towing trucks to match your car type so that you can transport your luxury cars safely and in style.</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-              <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Car wash</a></h4>
-                <p class="description">You can book a mobile car wash in just a few clicks and get your car washed at your doorstep. </p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-              <div>
-                <h4 class="title"><a href="services-details.html" class="stretched-link">Car Passing</a></h4>
-                <p class="description">If your car needs a quick car wash and you’re too busy to get to the service station yourself, we’ve got a solution for you. You can book a mobile car wash in just a few clicks and get your car washed at your doorstep.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-
 
         </div>
+        <!-- End Header Lower -->
 
-      </div>
+        <!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+                <!--Logo-->
+            	<div class="logo pull-left">
+                	<a href="index.html" class="img-responsive"><img src="{{asset('assetsfront/images/logo-small.png')}}" alt="" title=""></a>
+                </div>
 
-    </section><!-- End Services Section -->
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu  navbar-expand-md">
+                        <div class="navbar-header">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                        </div>
+
+                        <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+                            <ul class="navigation clearfix">
+                                <li ><a href="/home">Home</a></li>
+
+
+
+                                <li class="dropdown has-dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                                    <ul class="dd-box-shadow">
+
+                                      <li class="dropdown has-dropdown"><a href="/recovery"><span>Recovery</span> <i class="bi bi-chevron-down"></i></a>
+                                        <ul class="dd-box-shadow">
+                                          <li><a href="/recovery">Normal</a></li>
+                                          <li><a href="/recovery">Flat</a></li>
+                                          <li><a href="/recovery">Box</a></li>
+
+                                        </ul>
+                                      </li>
+                                      <li><a href="/carwash">Car Wash</a></li>
+                                      <li  class="dropdown has-dropdown"><a href="/carpassing"><span>Car Passing</span><i class="bi bi-chevron-down"></i></a>
+                                        <ul class="dd-box-shadow">
+                                            <li><a href="/carpassing">Normal</a></li>
+                                            <li><a href="/carpassing">Flat</a></li>
+                                            <li><a href="/carpassing">Box</a></li>
+
+                                          </ul>
+                                    </li>
+
+                                      <li><a href="/carservice">Car Services</a></li>
+                                      <li><a href="/tyre">Tyre</a></li>
+                                      <li><a href="/battery">Battery</a></li>
+                                    </ul>
+                                  </li>
+                                </li>
+                                <li ><a href="/aboutus">About</a>
+
+                                </li>
+
+                                <li><a href="/contactus">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+
+            </div>
+        </div>
+        <!--End Sticky Header-->
+    </header>
+    <!--End Main Header -->
+
 
 
 
@@ -320,9 +236,9 @@
             <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
                 <ul>
                     <!-- Slide 1 -->
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{{asset('assetsfront/images/main-slider/image-1.jpg')}}" data-title="Slide Title" data-transition="parallaxvertical">
 
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/image-1.jpg">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{asset('assetsfront/images/image-1.jpg')}}">
 
                         <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','550','550']" data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['-120','-120','-120','-120']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-frames="[{" from":"y:[100%];z:0;rx:0deg;ry:0;rz:0;sx:1;sy:1;skx:0;sky:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"power3.easeinout"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"power3.easeinout"}]"="">
                             <h4>Your Vehicle is</h4>
@@ -344,7 +260,7 @@
                     <!-- Slide 2 -->
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
 
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/image-2.jpg">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{asset('assetsfront/images/image-2.jpg')}}">
 
                         <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['550','600','550','550']" data-whitespace="normal" data-textalign="center" data-hoffset="['0','0','0','0']" data-voffset="['-120','-120','-120','-120']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-frames="[{" from":"y:[100%];z:0;rx:0deg;ry:0;rz:0;sx:1;sy:1;skx:0;sky:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"power3.easeinout"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"power3.easeinout"}]"="">
                             <h4>The Best Car Repair and</h4>
@@ -365,7 +281,7 @@
 
                     <!-- Slide 3 -->
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1697" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-						<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/image-3.jpg">
+						<img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{asset('assetsfront/images/image-3.jpg')}}">
 
                         <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['490','490','490','490']" data-whitespace="normal" data-hoffset="['0','15','15','15']" data-voffset="['-120','-120','-120','-120']" data-x="['right','left','left','left']" data-y="['middle','middle','middle','middle']" data-frames="[{" from":"y:[100%];z:0;rx:0deg;ry:0;rz:0;sx:1;sy:1;skx:0;sky:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"power3.easeinout"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"power3.easeinout"}]"="">
                             <h4>The Best Car Repair and</h4>

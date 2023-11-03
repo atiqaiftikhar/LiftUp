@@ -3,6 +3,57 @@
 @section('content')
 <br>
 <br>
+<div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6 " data-aos-delay="100">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+          <div>
+            <h4 class="title"><a href="services-details.html" class="stretched-link">Car Recovery & Transport</a></h4>
+            <p class="description">LiftUp offers different types of towing trucks to match your car type so that you can transport your luxury cars safely and in style.</p>
+          </div>
+        </div>
+      </div>
+      <!-- End Service Item -->
+
+      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+          <div>
+            <h4 class="title"><a href="services-details.html" class="stretched-link">Car wash</a></h4>
+            <p class="description">You can book a mobile car wash in just a few clicks and get your car washed at your doorstep. </p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item d-flex">
+          <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+          <div>
+            <h4 class="title"><a href="services-details.html" class="stretched-link">Car Passing</a></h4>
+            <p class="description">If your car needs a quick car wash and you’re too busy to get to the service station yourself, we’ve got a solution for you. You can book a mobile car wash in just a few clicks and get your car washed at your doorstep.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+
+
+    </div>
+
+  </div>
+
+</section><!-- End Services Section -->
+
+
+
+
+
+
+
+
+
 <br>
 <div class=" text-center text-light p-3 mb-2 bg-danger"><h3>Services</h3></div>
 <div class="section-full bg-white content-inner">
