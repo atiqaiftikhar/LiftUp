@@ -2,10 +2,6 @@
 @extends('layouts.masterfront')
 @section('content')
 
-
-
-
-
  <!-- Contact Section -->
  <section class="contact-section">
     <div class="auto-container">
